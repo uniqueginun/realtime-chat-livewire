@@ -2,7 +2,9 @@
     @forelse($conversations as $conversation)
         <a href="#" class="d-block bg-white mb-2 p-4">
             <div class="font-weight-bold text-muted">
-                Alex, Belly, Me
+                @foreach($conversation->users as $user)
+                    {{ $user->name }}@if(!$loop->last),@endif
+                @endforeach
             </div>
             <p class="text-muted mb-0 text-truncate d-flex align-items-center">
                 this is the last message body

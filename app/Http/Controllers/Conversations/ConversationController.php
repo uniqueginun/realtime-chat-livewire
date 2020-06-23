@@ -13,9 +13,9 @@ class ConversationController extends Controller
         $this->middleware(['auth']);
     }
 
-    public function index()
+    public function index(Request $request)
     {
-        $conversations = Conversation::latest()->get();
+        $conversations = $request->user()->conversations;
 
         return view('conversations.index', compact('conversations'));
     }
