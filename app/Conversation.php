@@ -12,4 +12,9 @@ class Conversation extends Model
     {
         return $this->belongsToMany(User::class)->oldest();
     }
+
+    public function messages()
+    {
+        return $this->hasMany(Message::class);
+    }
 }
