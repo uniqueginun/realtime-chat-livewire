@@ -1,9 +1,9 @@
 <div>
     @forelse($messages as $message)
         @if($message->isOwn())
-            <livewire:conversations.conversations-own :message="$message" />
+            <livewire:conversations.conversations-own :message="$message" :key="$message->id" />
         @else
-            <livewire:conversations.conversations-message :message="$message" />
+            <livewire:conversations.conversations-message :message="$message" :key="$message->id" />
         @endif
     @empty
         <p class="text-center text-truncate text-muted">

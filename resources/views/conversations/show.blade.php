@@ -11,11 +11,11 @@
                     <div class="p-4 border-bottom">
                         <livewire:conversations.conversations-users :users="$conversation->users" />
                     </div>
-                    <div class="p-4" style="height: 300px; max-height: 300px; overflow: scroll;">
+                    <div class="p-4" style="height: 400px; max-height: 400px; overflow: scroll;">
                         <livewire:conversations.conversations-messages :messages="$conversation->messages" />
                     </div>
                     <div class="p-4 border-top">
-                        <livewire:conversations.conversations-reply />
+                        <livewire:conversations.conversations-reply :conversation="$conversation" />
                     </div>
                 </div>
             </div>
