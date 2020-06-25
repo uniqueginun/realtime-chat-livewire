@@ -1,6 +1,6 @@
 <div>
     @forelse($conversations as $conversation)
-        <a href="#" class="d-block bg-white mb-2 p-4">
+        <a href="{{ route('conversations.show', $conversation) }}" class="d-block bg-white mb-2 p-4">
             <div class="font-weight-bold text-muted">
                 @foreach($conversation->users as $user)
                     {{ $user->present()->name }}@if(!$loop->last),@endif

@@ -7,7 +7,7 @@
                 <livewire:conversations.conversations-list :conversations="$conversations" />
             </div>
             <div class="col-md-8">
-                views
+
             </div>
         </div>
     </div>

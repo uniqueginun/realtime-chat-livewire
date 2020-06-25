@@ -22,3 +22,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/conversations', 'Conversations\ConversationController@index')->name('conversations.index');
+Route::get('/conversations/{conversation:uuid}', 'Conversations\ConversationController@show')->name('conversations.show');
