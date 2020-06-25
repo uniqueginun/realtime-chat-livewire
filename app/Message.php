@@ -15,4 +15,9 @@ class Message extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function isOwn()
+    {
+        return (int) $this->user->id === (int) auth()->id();
+    }
 }

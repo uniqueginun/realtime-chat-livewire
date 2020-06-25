@@ -10,4 +10,9 @@ class UserPresenter extends BasePresenter
     {
         return (auth()->id() === $this->model->id) ? 'You' : $this->model->name;
     }
+
+    public function avatar()
+    {
+        return "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $this->model->email ) ) ) . "?d=mm";
+    }
 }
