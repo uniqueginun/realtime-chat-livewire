@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea54085-482c-43a4-96f2-772203612f30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Conversation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Conversation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsMessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsMessages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsReply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsReply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/conversations/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/conversations/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-messages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,16 +52,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsReply.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="118">
@@ -74,6 +69,15 @@
               <folding>
                 <element signature="e#51#72#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -90,7 +94,6 @@
         <option value="$PROJECT_DIR$/app/Http/Livewire/Counter.php" />
         <option value="$PROJECT_DIR$/resources/views/livewire/counter.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_06_23_212608_create_conversations_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ConversationFactory.php" />
         <option value="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsList.php" />
@@ -114,8 +117,9 @@
         <option value="$PROJECT_DIR$/app/Message.php" />
         <option value="$PROJECT_DIR$/app/Conversation.php" />
         <option value="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-messages.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsReply.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php" />
       </list>
     </option>
   </component>
@@ -297,6 +301,13 @@
               <item name="realtime-chat-livewire" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtime-chat-livewire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="realtime-chat-livewire" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="livewire" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,12 +359,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592939140049</updated>
-      <workItem from="1592939144467" duration="9887000" />
+      <workItem from="1592939144467" duration="10920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9887000" />
+    <option name="totallyTimeSpent" value="10920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -361,7 +372,7 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -492,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="55" column="102" selection-start-line="55" selection-start-column="102" selection-end-line="55" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/livewire/conversations/conversations-users.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -613,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationsReply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -627,6 +624,20 @@
           <folding>
             <element signature="e#51#72#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/livewire/conversations/conversations-reply.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>

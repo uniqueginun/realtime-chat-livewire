@@ -1,6 +1,16 @@
-<form action="#" wire:submit.prevent="reply">
+<form x-data="submitReplyForm()" action="#" wire:submit.prevent="reply">
     <div class="form-group mb-0">
-        <textarea rows="3" wire:model="body" class="form-control"></textarea>
+        <textarea rows="1" wire:model="body" x-on:keydown.enter="submit()" placeholder="reply..." class="form-control"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Send</button>
+    <button type="submit" x-ref="submitButton" class="sr-only">Send</button>
 </form>
+
+<script>
+    function submitReplyForm() {
+        return {
+            submit() {
+                this.$refs.submitButton.click();
+            }
+        }
+    }
+</script>
