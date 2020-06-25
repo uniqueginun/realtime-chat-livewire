@@ -9,7 +9,7 @@
             <div class="col-md-8">
                 <div class="bg-white">
                     <div class="p-4 border-bottom">
-                        <livewire:conversations.conversations-users />
+                        <livewire:conversations.conversations-users :users="$conversation->users" />
                     </div>
                     <div class="p-4" style="height: 300px; max-height: 300px; overflow: scroll;">
                         <livewire:conversations.conversations-messages />
