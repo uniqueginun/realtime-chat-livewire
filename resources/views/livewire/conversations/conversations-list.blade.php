@@ -7,7 +7,7 @@
                 @endforeach
             </div>
             <p class="text-muted mb-0 text-truncate d-flex align-items-center">
-                this is the last message body
+                {{ $conversation->messages->count() ? $conversation->messages->first()->body : '' }}
             </p>
         </a>
     @empty

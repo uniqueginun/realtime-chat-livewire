@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Conversations;
 
 use App\Conversation;
+use Carbon\Carbon;
 use Livewire\Component;
 
 class ConversationsReply extends Component
@@ -25,6 +26,10 @@ class ConversationsReply extends Component
         $message = $this->conversation->messages()->create([
             'user_id' => auth()->id(),
             'body' => $this->body
+        ]);
+
+        $this->conversation->update([
+            'last_message_at' => Carbon::now()
         ]);
 
         $this->emit('messageAdded', $message->id);
